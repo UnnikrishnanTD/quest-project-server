@@ -1,6 +1,5 @@
 package com.quest.app.service.user;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.ZoneId;
@@ -11,6 +10,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
 import com.quest.app.entity.User;
 import com.quest.app.exception.BussinessException;
 import com.quest.app.repo.user.UserRepo;
